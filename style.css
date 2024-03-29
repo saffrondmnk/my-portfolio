@@ -11,3 +11,11 @@
 section {
     padding-top: 4.5rem;
 }
+
+.image-move {
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-move:hover {
+    transform: scale(1.02)
+}
