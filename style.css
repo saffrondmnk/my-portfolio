@@ -19,3 +19,18 @@ section {
 .image-move:hover {
     transform: scale(1.02)
 }
+
+.card img {
+
+    width: auto;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.col-8 h1 {
+    white-space: nowrap;
+}
+
+.col-4 h1 {
+    white-space: nowrap;
+}
