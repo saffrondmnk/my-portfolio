@@ -27,10 +27,20 @@ section {
     object-fit: cover;
 }
 
-.col-8 h1 {
+.carousel-item img {
+    width: auto;
+    height: 18rem;
+    object-fit: cover;
+}
+
+/* .col-8 h1 {
     white-space: nowrap;
 }
 
 .col-4 h1 {
     white-space: nowrap;
+}  */
+
+.carousel-inner .carousel-item {
+    cursor: pointer;
 }
