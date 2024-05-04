@@ -30,7 +30,7 @@ section {
 .carousel-item img {
     width: auto;
     height: 18rem;
-    object-fit: cover;
+    object-fit:fill;
 }
 
 /* .col-8 h1 {
