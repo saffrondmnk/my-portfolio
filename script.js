@@ -1,5 +1,7 @@
-document.querySelectorAll('.carousel-image').forEach(image => {
-    image.addEventListener('click', function(){
+const carouselImage = document.querySelectorAll('.carousel-image');
+
+carouselImage.forEach(image => {
+    image.addEventListener('click', function() {
 
         let zoomImages = document.querySelectorAll('.zoom-image');
         zoomImages.forEach(zoomImage => {
@@ -8,7 +10,3 @@ document.querySelectorAll('.carousel-image').forEach(image => {
         
     });
 });
-
-// document.addEventListener('DOMContentLoaded', function(){
-
-// });
