@@ -12,7 +12,7 @@ window.addEventListener('scroll', () => {
         const sectionTop = section.offsetTop;
         const sectionBottom = sectionTop + section.offsetHeight;
 
-        console.log('sectionTop: ',sectionTop, 'sectionBottom: ', sectionBottom, 'scrollPosition: ', scrollPosition);
+        // console.log('sectionTop: ',sectionTop, 'sectionBottom: ', sectionBottom, 'scrollPosition: ', scrollPosition);
 
         if (scrollPosition >= sectionTop - 1 && scrollPosition <= sectionBottom - 1  ) {
             // add class "active" for navigate
