@@ -44,3 +44,8 @@ section {
 .carousel-inner .carousel-item {
     cursor: pointer;
 }
+
+.card {
+    min-height: 350px;
+    overflow-y: auto;
+}
